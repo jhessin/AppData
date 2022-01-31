@@ -1,9 +1,24 @@
 " echo "🤜(👁️👄👁️)🤜"
+" Clear all mappings for a clean slate!
+mapclear
+
 " Use space as the leader key
 let mapleader = " "
 
-" Quick edit of vimrc
-nnoremap <leader>ev :e $MYVIMRC<cr>
+" ',' will be the localleader
+let maplocalleader = ","
+
+" Quick edit/source of vimrc
+nnoremap <leader>ev :vs $MYVIMRC<cr>
+nnoremap <leader>sv :source $MYVIMRC<cr>
+
+" move lines with ctrl-arrow keys
+nnoremap <c-up> ddkP
+nnoremap <c-down> ddp
+
+" <c-u> converts current word to uppercase
+" inoremap <c-u> <esc>viwU<esc>ea 
+" nnoremap <c-u> viwU<esc>e 
 
 " The default numberwidth of 4 is good but if I ever want to change it:
 " set nuw=4
