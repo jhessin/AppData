@@ -1,0 +1,3 @@
+
+class <+FILENAME+>:
+    pass

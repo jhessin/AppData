@@ -33,7 +33,7 @@ set fo+=q
 
 " Automatically format paragraphs - this can be usefull for prose but doesn't
 " work well with code so we add the c flag as well so it only works with
-" comments this also messes up git commits so I'm disabling it for now: 
+" comments this also messes up git commits so I'm disabling it for now:
 " set fo+=a
 set fo+=c
 

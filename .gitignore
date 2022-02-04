@@ -1,16 +1,3 @@
-# Ignore everything
-*
-# But descend into directories
-!*/
-
-# Ignore system directories we don't have access to
-Local/Application*
-Local/History
-Local/Microsoft
-Local/Temp*
-
-# Don't ignore this file or the following directories
-!.gitignore
-!/Local/nvim/**
-# !/Local/XIVLauncher/**
-!/Roaming/gitui/**
+.netrwhist
+viminfo
+plugged/

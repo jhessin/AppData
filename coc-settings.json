@@ -1,0 +1,71 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": [
+    "css",
+    "markdown",
+    "typescript",
+    "typescriptreact",
+    "javascript",
+    "html",
+    "html.handlebars",
+    "dart"
+  ],
+  "solargraph.useBundler": false,
+  "solargraph.checkGemVersion": true,
+  "solargraph.diagnostics": false,
+  "solargraph.completion": true,
+  "solargraph.hover": true,
+  "solargraph.autoformat": true,
+  "solargraph.formatting": true,
+  "solargraph.symbols": true,
+  "solargraph.definitions": true,
+  "solargraph.rename": true,
+  "solargraph.references": true,
+  "solargraph.folding": true,
+  "solargraph.transport": "stdio",
+  "html.filetypes": ["html", "handlebars", "eruby"],
+  "emmet.includeLanguages": {
+    "html.handlebars": "html"
+  },
+  "languageserver": {
+    "bash": {
+      "command": "bash-language-server",
+      "args": ["start"],
+      "filetypes": ["sh"]
+    },
+    "golang": {
+      "command": "gopls",
+      "rootPatterns": ["go.mod", ".vim/", ".git/", ".hg/"],
+      "filetypes": ["go"],
+      "initializationOptions": {
+        "usePlaceholders": true
+      }
+    },
+    "typescript": {
+      "command": "yarn rome lsp",
+      "rootPatterns": [".vim/", ".git/"],
+      "filetypes": ["ts", "js", "jsx", "tsx"]
+    },
+    "javascript": {
+      "command": "yarn rome lsp",
+      "rootPatterns": [".vim/", ".git/"],
+      "filetypes": ["ts", "js", "jsx", "tsx"]
+    },
+    "dart": {
+      "command": "dart_language_server",
+      "args": [],
+      "filetypes": ["dart"],
+      "initializationOptions": {},
+      "settings": {
+        "dart": {
+          "validation": {},
+          "completion": {}
+        }
+      }
+    }
+  },
+  // "python.linting.pylintEnabled": true,
+  // "python.linting.pylintArgs": [],
+  "diagnostic.checkCurrentLine": true,
+  // "diagnostic.messageTarget": "echo",
+  "diagnostic.enableMessage": "always"
+}
