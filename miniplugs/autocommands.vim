@@ -1,5 +1,6 @@
+augroup main
 au!
-autocmd FileType javascript nnoremap <buffer> gc I//<esc>
-autocmd FileType python nnoremap <buffer> gc I#<esc>
+" Put autocommands here
+augroup END
 
 " vim:fdm=marker:fdl=0

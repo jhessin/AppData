@@ -40,6 +40,42 @@ set fo+=c
 " Do remove comment leaders when joining lines
 set fo+=j
 
+" Old Look and Feel settings {{{
+syntax enable
+set background=dark
+set termguicolors
+colorscheme solarized8_dark
+"colorscheme 1989
+" add .vimrc_background file
+"if filereadable(expand("~/.vimrc_background"))
+"let base16colorspace=256
+"source ~/.vimrc_background
+"endif
+set wildmenu " when opening a file with e.g. :e ~/.vim<TAB> there is a graphical menu of all the matches
+set ttyfast
+set lazyredraw
+set updatetime=300
+set hidden " Open other files if current one is not saved
+set inccommand=split        " highlight substitute searches
+set showcmd                 " show command in bottom bar
+set cursorline              " highlight the current line
+hi CursorLine cterm=underline
+hi MatchParen guifg=red
+set shiftround              " round to the nearest shiftstop
+set showmatch               " highlight matching [{()}]
+set diffopt+=vertical       " Show diffs side by side
+" }}}
+
+" Tab (indenting) Options {{{
+set shiftwidth=2
+set tabstop=2
+set softtabstop=2 " Number of spaces a tab counts when editing
+set expandtab
+set showbreak=↪\
+set list
+set listchars=tab:\|\ ,eol:↲,nbsp:␣,trail:•,extends:⟩,precedes:⟨
+" }}}
+"
 " }}}
 
 " vim:fdm=marker:fdl=0

@@ -21,28 +21,43 @@ let maplocalleader = ","
 
 " }}}
 
-" Quick edit/source of vimrc
+" Quick edit/source of vimrc {{{
 nnoremap <silent><leader>ev :vs $MYVIMRC<cr>
 nnoremap <silent><leader>sv :source $MYVIMRC<cr>
+" }}}
 
-" disable arrow keys in normal mode
+" vim-bookmarks mappings {{{
+nnoremap <silent>mn :BookmarkNext<CR>
+nnoremap <silent>mp :BookmarkPrev<CR>
+nnoremap <silent>mm :BookmarkToggle<CR>
+nnoremap <silent>ma :BookmarkAnnotate<CR>
+nnoremap <silent>mA :BookmarkShowAll<CR>
+nnoremap <silent>mc :BookmarkClear<CR>
+" }}}
+
+" disable arrow keys in normal mode {{{
 nnoremap <up> <nop>
 nnoremap <down> <nop>
 nnoremap <left> <nop>
 nnoremap <right> <nop>
+" }}}
 
-" disable arrow keys in insert mode
+" disable arrow keys in insert mode {{{
 inoremap <up> <nop>
 inoremap <down> <nop>
 inoremap <left> <nop>
 inoremap <right> <nop>
+" }}}
 
-" always do global moves
+" always do global moves {{{
 noremap j gj
 noremap k gk
+" }}}
 
+" H goes to the begining and L goes to the end {{{
 noremap H g^
 noremap L g$
+" }}}
 
 " map tab to move between windows
 nnoremap <tab> <c-w><c-w>

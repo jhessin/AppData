@@ -10,6 +10,7 @@ let config_list = [
   \ 'miniplugs/plugged.vim',
   \ 'miniplugs/airline_config.vim',
   \ 'miniplugs/coc_settings.vim',
+  \ 'miniplugs/interface.vim',
   \ 'miniplugs/mappings.vim',
   \ 'miniplugs/abbreviations.vim',
   \ 'miniplugs/formatting.vim',
