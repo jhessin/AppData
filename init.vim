@@ -1,4 +1,5 @@
 " echo "🤜(👁️👄👁️)🤜"
+" Get settings from ./miniplugs/plugged_full.vim
 
 " Breaking it down into files - these are my own "plugins"
 let g:vim_home = get(g:, 'vim_home', expand('~/AppData/Local/nvim/'))
@@ -7,6 +8,8 @@ let g:vim_home = get(g:, 'vim_home', expand('~/AppData/Local/nvim/'))
 let config_list = [
   \ 'miniplugs/mappings.vim',
   \ 'miniplugs/plugged.vim',
+  \ 'miniplugs/airline_config.vim',
+  \ 'miniplugs/coc_settings.vim',
   \ 'miniplugs/mappings.vim',
   \ 'miniplugs/abbreviations.vim',
   \ 'miniplugs/formatting.vim',
