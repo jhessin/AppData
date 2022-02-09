@@ -6,6 +6,7 @@ let g:vim_home = get(g:, 'vim_home', expand('~/AppData/Local/nvim/'))
 
 " Load all vim configs {{{
 let config_list = [
+  \ 'miniplugs/autocommands.vim',
   \ 'miniplugs/mappings.vim',
   \ 'miniplugs/plugged.vim',
   \ 'miniplugs/airline_config.vim',
@@ -14,7 +15,6 @@ let config_list = [
   \ 'miniplugs/mappings.vim',
   \ 'miniplugs/abbreviations.vim',
   \ 'miniplugs/formatting.vim',
-  \ 'miniplugs/autocommands.vim',
   \ ]
 " }}}
 

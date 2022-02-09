@@ -7,10 +7,6 @@ set pyxversion=3
 let g:loaded_python_provider = 0
 filetype off  " required
 
-" Breaking it down into files - these are my own "plugins"
-" TODO: Break plugin sets into files and load them here.
-let g:vim_home = get(g:, 'vim_home', expand('~/AppData/Local/nvim/'))
-
 " Keep Plug commands between plug#begin() and plug#end(). {{{
 call plug#begin()
 

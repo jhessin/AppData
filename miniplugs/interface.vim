@@ -1,3 +1,4 @@
+" Use the mouse!
 set mouse=a
 
 " Indentation {{{

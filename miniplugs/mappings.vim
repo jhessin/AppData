@@ -59,11 +59,15 @@ noremap H g^
 noremap L g$
 " }}}
 
-" map tab to move between windows
+" map tab to move between windows {{{
 nnoremap <tab> <c-w><c-w>
+" }}}
 
-" map gt to Goto next Tab(buffer)
+" map gt to Goto next Tab(buffer) {{{
 " gf is already Goto highlighted File
-nnoremap <silent>gt :bn<cr>
+" Switch between buffers as if they were tabs
+nnoremap <silent>gt :bn<CR>
+nnoremap <silent>gT :bp<CR>
+" }}}
 
 " vim:fdm=marker:fdl=0
