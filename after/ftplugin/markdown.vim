@@ -1,5 +1,6 @@
-let b:vimpipe_command="multimarkdown | lynx -dump -stdin"
+" let b:vimpipe_command="multimarkdown | lynx -dump -stdin"
 " let b:vimpipe_command="multimarkdown"
+let b:vimpipe_command="glow -"
 " let b:vimpipe_filetype="html"
 let g:autoformat_autoindent = 0
 

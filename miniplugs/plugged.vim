@@ -2,8 +2,9 @@
 " anything put them in here. Once you are done hit <Shift-ZZ> or :wq to
 " continue.
 
-set nocompatible " be iMproved, required
-set pyxversion=3
+" set nocompatible " be iMproved, required
+let &compatible = 0" be iMproved, required equivalent
+let &pyxversion = 3
 let g:loaded_python_provider = 0
 filetype off  " required
 

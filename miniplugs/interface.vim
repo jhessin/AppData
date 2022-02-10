@@ -1,18 +1,21 @@
 " Use the mouse!
-set mouse=a
+" set mouse=a
+let &mouse='a'
 
 " Indentation {{{
-set autoindent
-set cindent
-set smartindent
+let &autoindent = 1
+let &cindent = 1
+let &smartindent = 1
 " }}}
 
 " searching smartcase {{{
-set ignorecase " Ignore case when searching
-set smartcase  " When searching try to be smart about cases
-set infercase  " Infer case for completion
-set nohlsearch " Don't highlight search term
-set incsearch  " Jumping search
+let &ignorecase = 1 " Ignore case when searching
+let &smartcase = 1  " When searching try to be smart about cases
+let &infercase = 1  " Infer case for completion
+let &hlsearch = 0 " Don't highlight search term
+let &incsearch = 1  " Jumping search
 " }}}
-
-" vim:fdm=marker:fdl=0
+"
+" Use standard clipboard {{{
+let &clipboard="unnamedplus"
+" }}}" vim:fdm=marker:fdl=0
