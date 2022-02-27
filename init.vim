@@ -4,6 +4,8 @@
 " Breaking it down into files - these are my own "plugins"
 let g:vim_home = get(g:, 'vim_home', expand('~/AppData/Local/nvim/'))
 
+" after/ftplugin/vim.vim
+
 " Load all vim configs {{{
 let config_list = [
   \ 'miniplugs/autocommands.vim',
