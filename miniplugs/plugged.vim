@@ -16,6 +16,10 @@ Plug 'airblade/vim-gitgutter'   " Show git diff of lines edited
 " Plug 'tpope/vim-fugitive'     " :Gblame
 " Plug 'tpope/vim-rhubarb'     " :GBrowse
 
+" Markdown Tools
+" Plug 'tpope/vim-markdown'
+Plug 'plasticboy/vim-markdown'
+
 " HTML tools
 Plug 'mattn/emmet-vim'   " Emmet templating engine
 Plug 'KabbAmine/vCoolor.vim'  " Color picker
@@ -33,6 +37,10 @@ Plug 'Quramy/vim-js-pretty-template' " syntax highlighting for Template Strings
 
 " .NET tools
 Plug 'OmniSharp/omnisharp-vim'
+" Plug 'yuratomo/dotnet-complete'
+" Plug 'rodpl/vim-dotnet'
+Plug 'sukima/xmledit'
+Plug 'chrisbra/vim-xml-runtime'
 
 " Quality of Life tools
 " Plug 'gisphm/vim-gitignore'   " gitignore configuration (Doesn't work in

@@ -44,7 +44,7 @@ nmap <silent><leader>s   :CocCommand prettier.formatFile<CR>
 
 " Autocommands to run formatter on save {{{
 augroup main
-  autocmd BufWritePre * CocCommand prettier.formatFile
+  " autocmd BufWritePre * CocCommand prettier.formatFile
 augroup END
 " }}}
 
