@@ -45,11 +45,11 @@
       "rootPatterns": [".vim/", ".git/"],
       "filetypes": ["ts", "js", "jsx", "tsx"]
     },
-    "javascript": {
-      "command": "yarn rome lsp",
-      "rootPatterns": [".vim/", ".git/"],
-      "filetypes": ["ts", "js", "jsx", "tsx"]
-    },
+    // "javascript": {
+    //   "command": "yarn rome lsp",
+    //   "rootPatterns": [".vim/", ".git/"],
+    //   "filetypes": ["ts", "js", "jsx", "tsx"]
+    // },
     "dart": {
       "command": "dart_language_server",
       "args": [],
