@@ -9,4 +9,4 @@ nnoremap <localleader>s :InstantMarkdownStop<CR>
 
 set spell
 set noautoindent
-set fo=jtcql
+set fo=jtcqla
